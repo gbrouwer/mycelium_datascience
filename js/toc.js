@@ -12,7 +12,7 @@ let toc_content =
 	'<li><a href="chapter_001.html#1.6">1.6 – References</a></li>' +
 	'</ul>' +
 	'</li>' +
-
+	
 	'<li>' +
 	'<a href="#">2 - Definitions</a>' +
 	'<ul class="nolist">' +
