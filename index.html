@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="">
+	<head>
+    	<title>Mycelium</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <link rel="shortcut icon" type="image/png" href="../assets/icons/samson.png">
+		<script src="../js/jquery.min.js"></script>
+		<link rel="stylesheet" href="../../css/index.css" />
+	</head>
+	<body class="is-preload">
+		<div>
+			<span><span></span></span>
+				<h2 class="center" id="title"></h2>
+			<div class="wrap">
+			  <a onmouseover="changeDestination(1)" href="../html/bio/index.html"><div></div></a>
+			  <a onmouseover="changeDestination(2)" href="../html/catnip/index.html"><div></div></a>
+			  <a onmouseover="changeDestination(3)" href="../html/solarium/library.html"><div></div></a>
+			  <a onmouseover="changeDestination(4)" href="../html/mycelium/chapter_001.html"><div></div></a>
+			  <a onmouseover="changeDestination(5)" href="../html/mycelium/chapter_001.html"><div></div></a>
+			</div>
+		</div>
+	</body>
+	<script>
+
+		function changeDestination(pageno) {
+			let element = document.getElementById("title")
+			if (pageno === 1) {
+				element.margin = "0pt";
+				element.top = "0pt";
+				element.innerHTML = "<h3>Bio</h3>"
+			}
+			if (pageno === 5) {
+				element.margin = "0pt";
+				element.innerHTML = "<h3>Data Science Course</h3>"
+			}
+			if (pageno === 3) {
+				element.margin = "0pt";
+				element.innerHTML = "<h3>Library</h3>"
+			}
+			if (pageno === 4) {
+				element.margin = "0pt";
+				element.innerHTML = "<h3>Data Science Course Low Resolution</h3>"
+			}
+			if (pageno === 2) {
+				element.margin = "0pt";
+				element.innerHTML = "<h2>Catnip Project</h2>"
+			}
+		}
+
+	</script>
+</html>
