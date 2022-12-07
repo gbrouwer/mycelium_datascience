@@ -2,6 +2,7 @@ let toc_content = [
 	'<li>' +
 	'<a href="">1 - Foreword</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_001.html">1 - Foreword</a></li>' +
 	'<li><a href="chapter_001.html#1.1">1.1 - Another book on machine learning?</a></li>' +
 	'<li><a href="chapter_001.html#1.2">1.2 - Concepts, abstractions, and intuitions</a></li>' +
 	'<li><a href="chapter_001.html#1.3">1.3 – Outline</a></li>' +
@@ -15,6 +16,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">2 - Definitions</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_002.html">2 - Definitions</a></li>' +
 	'<li><a href="chapter_002.html#2.1">2.1 - Introduction</a></li>' +
 	'<li><a href="chapter_002.html#2.2">2.2 - Data Science</a></li>' +
 	'<li><a href="chapter_002.html#2.3">2.3 - Artificial Intelligence</a></li>' +
@@ -30,6 +32,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">3 - History of AI</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_003.html">3 - History of AI</a></li>' +
 	'<li><a href="chapter_003.html#3.1">3.1 - Mechanical Turk (1770)</a></li>' +
 	'<li><a href="chapter_003.html#3.2">3.2 - Luigi Galvani (1780)</a></li>' +
 	'<li><a href="chapter_003.html#3.3">3.3 - The Loom (1801)</a></li>' +
@@ -59,6 +62,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">4 - Philosophy of AI</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_004.html">4 - Philosophy of AI</a></li>' +
 	'<li><a href="chapter_004.html#4.1">4.1 - Introduction</a></li>' +
 	'<li><a href="chapter_004.html#4.2">4.2 - Intelligence and the Turing test</a></li>' +
 	'<li><a href="chapter_004.html#4.3">4.3 - Biological Intelligence</a></li>' +
@@ -80,6 +84,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">5 - Suggested Readings</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_005.html">5 - Suggested Readings</a></li>' +
 	'<li><a href="chapter_005.html#5.1">5.1 - Introduction</a></li>' +
 	'<li><a href="chapter_005.html#5.2">5.2 - Artificial Intelligence</a></li>' +
 	'<li><a href="chapter_005.html#5.3">5.3 - Bias</a></li>' +
@@ -108,6 +113,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">6 - Data Types</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_006.html">6 - Data Types</a></li>' +
 	'<li><a href="chapter_006.html#6.1">6.1 – Introduction</a></li>' +
 	'<li><a href="chapter_006.html#6.2">6.2 - Numerical Data</a></li>' +
 	'<li><a href="chapter_006.html#6.3">6.3 - Categorical Data</a></li>' +
@@ -130,6 +136,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">7 - Prior Considerations</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_007.html">7 - Prior Consideration</a></li>' +
 	'<li><a href="chapter_007.html#7.1">7.1 - Introduction</a></li>' +
 	'<li><a href="chapter_007.html#7.2">7.2 - Supervised vs. Unsupervised - The amount of ground truth</a></li>' +
 	'<li><a href="chapter_007.html#7.3">7.3 - Categorical, numerical, or something else altogether</a></li>' +
@@ -144,6 +151,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">8 - Algorithmic Objectives</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_008.html">8 - Algorithmic Objectives</a></li>' +
 	'<li><a href="chapter_008.html#8.1">8.1 - Introduction</a></li>' +
 	'<li><a href="chapter_008.html#8.2">8.2 - Regression</a></li>' +
 	'<li><a href="chapter_008.html#8.3">8.3 - Classification</a></li>' +
@@ -163,6 +171,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">9 - A Partial Taxonomy</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_009.html">9 - A Partial Taxonomy</a></li>' +
 	'<li><a href="chapter_009.html#9.1">9.1 - Introduction</a></li>' +
 	'<li><a href="chapter_009.html#9.2">9.2 - Regression Algorithms</a></li>' +
 	'<li><a href="chapter_009.html#9.3">9.3 - Classification Algorithms</a></li>' +
@@ -181,6 +190,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">10 - Different Perspectives</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_010.html">10 - Different Perspectives</a></li>' +
 	'<li><a href="chapter_010.html#10.1">10.1 - Introduction</a></li>' +
 	'<li><a href="chapter_010.html#10.2">10.2 - Statistical Perspective</a></li>' +
 	'<li><a href="chapter_010.html#10.3">10.3 - Algebraic Perspective</a></li>' +
@@ -194,6 +204,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">11 - The Geometry of Machine Learning</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_011.html">11 - The Geometry of Machine Learning</a></li>' +
 	'<li><a href="chapter_011.html#11.1">11.1 - Introduction</a></li>' +
 	'<li><a href="chapter_011.html#11.2">11.2 - Preamble</a></li>' +
 	'<li><a href="chapter_011.html#11.3">11.3 - Points</a></li>' +
@@ -211,6 +222,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">12 - Transformations</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_012.html">12 – Transformations</a></li>' +
 	'<li><a href="chapter_012.html#12.1">12.1 – Introduction</a></li>' +
 	'<li><a href="chapter_012.html#12.2">12.2 - The Geometry of everyday space</a></li>' +
 	'<li><a href="chapter_012.html#12.3">12.3 - The geometry of machine learning data</a></li>' +
@@ -242,6 +254,7 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">13 - The Statistics of Machine Learning</a>' +
 	'<ul class="nolist">' +
+	'<li><a href="chapter_013.html">13 - The Statistics of Machine Learning</a></li>' +
 	'<li><a href="chapter_013.html#13.1">13.1 - Introduction</a></li>' +
 	'<li><a href="chapter_013.html#13.2">13.2 - The mean, variance, standard deviation, and covariance</a></li>' +
 	'<li><a href="chapter_013.html#13.3">13.3 - The mean</a></li>' +
@@ -265,7 +278,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="#">14 - Regression</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_014.html#14.1">14.1 - Introduction' + 
+	'<li><a href="chapter_014.html">14 - Regression' +
+	'<li><a href="chapter_014.html#14.1">14.1 - Introduction' +
 	'<li><a href="chapter_014.html#14.2">14.2 - Why this is probably the most important chapter in this course' + 
 	'<li><a href="chapter_014.html#14.3">14.3 – Getting started with linear regression' + 
 	'<li><a href="chapter_014.html#14.4">14.4 - Nomenclature - Weights, parameters and hyperparameters' + 
@@ -323,7 +337,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">15 - Classification</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_015.html#15.1">15.1 - Introduction' + 
+	'<li><a href="chapter_015.html">15 - Classification' +
+	'<li><a href="chapter_015.html#15.1">15.1 - Introduction' +
 	'<li><a href="chapter_015.html#15.2">15.2 - A new activation function' + 
 	'<li><a href="chapter_015.html#15.3">15.3 – A new loss function' + 
 	'<li><a href="chapter_015.html#15.4">15.4 - Introducing Logistic Regression' + 
@@ -347,7 +362,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">16 - Decision Trees</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_016.html#16.1">16.1 – Introduction' + 
+	'<li><a href="chapter_016.html">16 - Decision Trees' +
+	'<li><a href="chapter_016.html#16.1">16.1 – Introduction' +
 	'<li><a href="chapter_016.html#16.2">16.2 - Pros and cons of Decision Trees' + 
 	'<li><a href="chapter_016.html#16.3">16.3 – Gini Impurity Index - Theory' + 
 	'<li><a href="chapter_016.html#16.4">16.4 – Gini Impurity Index - Example' + 
@@ -373,7 +389,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">17 - Clustering</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_017.html#17.1">17.1 - Introduction' + 
+	'<li><a href="chapter_017.html">17 - Clustering' +
+	'<li><a href="chapter_017.html#17.1">17.1 - Introduction' +
 	'<li><a href="chapter_017.html#17.2">17.2 – A Geometric Interpretation' + 
 	'<li><a href="chapter_017.html#17.3">17.3 – Distance revisited' + 
 	'<li><a href="chapter_017.html#17.4">17.4 - Clustering Methodologies' + 
@@ -403,7 +420,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">18 - Dimensionality Reduction</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_018.html#18.1">18.1 - Introduction' + 
+	'<li><a href="chapter_018.html">18 - Dimensionality Reduction' +
+	'<li><a href="chapter_018.html#18.1">18.1 - Introduction' +
 	'<li><a href="chapter_018.html#18.2">18.2 - Introducing subspaces' + 
 	'<li><a href="chapter_018.html#18.3">18.3 - Decreasing computational complexity' + 
 	'<li><a href="chapter_018.html#18.4">18.4 - Known underlying signals' + 
@@ -436,7 +454,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">19 - Manifolds</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_019.html#19.1">19.1 - Introduction' + 
+	'<li><a href="chapter_019.html">19 - Manifolds' +
+	'<li><a href="chapter_019.html#19.1">19.1 - Introduction' +
 	'<li><a href="chapter_019.html#19.2">19.2 - Color perception as an example of a true manifold' + 
 	'<li><a href="chapter_019.html#19.3">19.3 - Newtowns Mistake' + 
 	'<li><a href="chapter_019.html#19.4">19.4 - Wavelength does not equal perceived color' + 
@@ -457,7 +476,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">20 - Graphs</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_020.html#20.1">20.1 - Introduction' + 
+	'<li><a href="chapter_020.html">20 - Graphs' +
+	'<li><a href="chapter_020.html#20.1">20.1 - Introduction' +
 	'<li><a href="chapter_020.html#20.2">20.2 - Graph or network?' + 
 	'<li><a href="chapter_020.html#20.3">20.3 - Applications of graph theory' + 
 	'<li><a href="chapter_020.html#20.4">20.4 - Erdos, Natalie Portman, Kevin Bacon' + 
@@ -487,7 +507,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">21 - Natural Language Processing</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_021.html#21.1">21.1 - Introduction' + 
+	'<li><a href="chapter_021.html">21 - Natural Language Processing<' +
+	'<li><a href="chapter_021.html#21.1">21.1 - Introduction' +
 	'<li><a href="chapter_021.html#21.2">21.2 - Use Cases - Text classification' + 
 	'<li><a href="chapter_021.html#21.3">21.3 - Use Cases - Translation' + 
 	'<li><a href="chapter_021.html#21.4">21.4 - Use Cases - Topic modeling' + 
@@ -516,7 +537,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">22 - Causal Inference</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_022.html#22.1">22.1 - Introduction' + 
+	'<li><a href="chapter_022.html">22 - Causal Inference' +
+	'<li><a href="chapter_022.html#22.1">22.1 - Introduction' +
 	'<li><a href="chapter_022.html#22.2">22.2 - Correlation does not imply causation' + 
 	'<li><a href="chapter_022.html#22.3">22.3 - Directed Acyclic Graphs' + 
 	'<li><a href="chapter_022.html#22.4">22.4 - Propensity score matching' + 
@@ -529,7 +551,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">23 - Introduction to Neural Networks</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_023.html#23.1">23.1 - Introduction' + 
+	'<li><a href="chapter_023.html">23 - Introduction to Neural Networks' +
+	'<li><a href="chapter_023.html#23.1">23.1 - Introduction' +
 	'<li><a href="chapter_023.html#23.2">23.2 - Biological Neural Networks' + 
 	'<li><a href="chapter_023.html#23.3">23.3 - The Neuron' + 
 	'<li><a href="chapter_023.html#23.4">23.4 - Pathways and centers' + 
@@ -546,9 +569,10 @@ toc_content.push(
 
 toc_content.push(
 	'<li>' +
-	'<a href="">24 - Building your First Artificial Neural Network</a>' +
+	'<a href="">24 - Your first Artificial Neural Network</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_024.html#24.1">24.1 - Introduction' + 
+	'<li><a href="chapter_024.html">24 - Your first Artificial Neural Network' +
+	'<li><a href="chapter_024.html#24.1">24.1 - Introduction' +
 	'<li><a href="chapter_024.html#24.2">24.2 – Definitions' + 
 	'<li><a href="chapter_024.html#24.3">24.3 – Building an AND logic gate' + 
 	'<li><a href="chapter_024.html#24.4">24.4 – The Perceptron' + 
@@ -571,7 +595,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">25 - Multilayer Neural Networks</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_025.html#25.1">25.1 - Introduction' + 
+	'<li><a href="chapter_025.html">25 - Multilayer Neural Networks' +
+	'<li><a href="chapter_025.html#25.1">25.1 - Introduction' +
 	'<li><a href="chapter_025.html#25.2">25.2 - Minsky and Paperts monkey wrench' + 
 	'<li><a href="chapter_025.html#25.3">25.3 - Enter Backpropagation' + 
 	'<li><a href="chapter_025.html#25.4">25.4 - Backpropagation in a nutshell' + 
@@ -596,7 +621,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">26 - Deep Belief Neural Networks</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_026.html#26.1">26.1 - Introduction' + 
+	'<li><a href="chapter_026.html">26 - Deep Belief Neural Networks' +
+	'<li><a href="chapter_026.html#26.1">26.1 - Introduction' +
 	'<li><a href="chapter_026.html#26.2">26.2 - (Leaky) ReLu activation functions' + 
 	'<li><a href="chapter_026.html#26.3">26.3 - Optimization and Learning' + 
 	'<li><a href="chapter_026.html#26.4">26.4 - Optimization and Learning - AdaGrad and RMSProp' + 
@@ -619,7 +645,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">27 - Introduction to Biological Vision</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_027.html#27.1">27.1 - Introduction' + 
+	'<li><a href="chapter_027.html">27 - Introduction to Biological Vision' +
+	'<li><a href="chapter_027.html#27.1">27.1 - Introduction' +
 	'<li><a href="chapter_027.html#27.2">27.2 - The Retina' + 
 	'<li><a href="chapter_027.html#27.3">27.3 - The visual field and what you think you see but do not' + 
 	'<li><a href="chapter_027.html#27.4">27.4 - Lateral Geniculate Nucleus' + 
@@ -636,7 +663,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">28 - Convolutional Neural Networks</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_028.html#28.1">28.1 - Introduction' + 
+	'<li><a href="chapter_028.html">28 - Convolutional Neural Networks' +
+	'<li><a href="chapter_028.html#28.1">28.1 - Introduction' +
 	'<li><a href="chapter_028.html#28.2">28.2 - Introduction to Convolution' + 
 	'<li><a href="chapter_028.html#28.3">28.3 - Convolution versus Cross-Correlation' + 
 	'<li><a href="chapter_028.html#28.4">28.4 - Convolution explained - 1D time series - example 1' + 
@@ -669,9 +697,10 @@ toc_content.push(
 
 toc_content.push(
 	'<li>' +
-	'<a href="">29 - Visualizing cDBNNs </a>' +
+	'<a href="">29 - Visualizing cDBNNs</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_029.html#29.1">29.1 - Introduction' + 
+	'<li><a href="chapter_029.html">29 - Visualizing cDBNNs' +
+	'<li><a href="chapter_029.html#29.1">29.1 - Introduction' +
 	'<li><a href="chapter_029.html#29.2">29.2 - Representations' + 
 	'<li><a href="chapter_029.html#29.3">29.3 - Visualizing Neural Networks using Tensorflow Lucid' + 
 	'</ul>' +
@@ -681,7 +710,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">30 - Generative Neural Networks</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_030.html#30.1">30.1 - Introduction' + 
+	'<li><a href="chapter_030.html">30 - Generative Neural Networks' +
+	'<li><a href="chapter_030.html#30.1">30.1 - Introduction' +
 	'<li><a href="chapter_030.html#30.2">30.2 - Creating somehing from nothing' + 
 	'<li><a href="chapter_030.html#30.3">30.3 - Auto-encoders' + 
 	'<li><a href="chapter_030.html#30.4">30.4 - Bottlenecks' + 
@@ -702,7 +732,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">31 - Beyond</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_031.html#31.1">31.1 - Introduction' + 
+	'<li><a href="chapter_031.html">31 - Beyond' +
+	'<li><a href="chapter_031.html#31.1">31.1 - Introduction' +
 	'<li><a href="chapter_031.html#31.2">31.2 - Reinforcement Learning' + 
 	'<li><a href="chapter_031.html#31.3">31.3 - Playing Games - Space Invaders' + 
 	'<li><a href="chapter_031.html#31.4">31.4 - Genetic and Evolutionary Algorithms' + 
@@ -728,7 +759,8 @@ toc_content.push(
 	'<li>' +
 	'<a href="">32 - Ethics and Bias</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_032.html#32.1">32.1 - Introduction' + 
+	'<li><a href="chapter_032.html">32 - Ethics and Bias' +
+	'<li><a href="chapter_032.html#32.1">32.1 - Introduction' +
 	'<li><a href="chapter_032.html#32.2">32.2 - Hidden algorithms rather than robots' + 
 	'<li><a href="chapter_032.html#32.3">32.3 - Privacy, Fairness, Interpretability, Accountability' + 
 	'<li><a href="chapter_032.html#32.4">32.4 - Differential Privacy' + 
@@ -752,12 +784,37 @@ toc_content.push(
 	'<li>' +
 	'<a href="">33 - Final remarks and a Look Forward</a>' +
 	'<ul class="nolist">' +
-	'<li><a href="chapter_033.html#33.1">33.1 - Conclusion' + 
+	'<li><a href="chapter_033.html">33 - Final remarks and a Look Forward' +
+	'<li><a href="chapter_033.html#33.1">33.1 - Conclusion' +
 	'</ul>' +
 	'</li>');
 
+toc_content.push(
+	'<li>' +
+	'<a href="">34 - Glossary</a>' +
+	'<ul class="nolist">' +
+	'<li><a href="glossary.html">34 - Glossary' +
+	'<li><a href="glossary.html#34.1">33.1 - Glossary' +
+	'</ul>' +
+	'</li>');
 
+toc_content.push(
+	'<li>' +
+	'<a href="">35 - Equations</a>' +
+	'<ul class="nolist">' +
+	'<li><a href="glossary.html">35 - Equations' +
+	'<li><a href="glossary.html#34.1">35.1 - Equations' +
+	'</ul>' +
+	'</li>');
 
+toc_content.push(
+	'<li>' +
+	'<a href="">36 - Table of Contents</a>' +
+	'<ul class="nolist">' +
+	'<li><a href="glossary.html">36 - Table of Contents' +
+	'<li><a href="glossary.html#34.1">36.1 - Table of Contents' +
+	'</ul>' +
+	'</li>');
 
 
 

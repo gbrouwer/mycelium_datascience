@@ -1,6 +1,6 @@
 .no-bullets {
     list-style-type: none;
-    background-color: #000;
+    background-color: #d0f;
     color: #000;
 }
 li {
@@ -9,13 +9,13 @@ li {
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none !important;
-    color: #000;
+    color: #0ff;
     font-size: 2.8rem;
 }
 aside nav.left-nav {
     list-style-type: none;
     background-color: #fff;
-    color: #000;
+    color: #00f;
 }
 aside nav.left-nav ul {
     list-style-type: none;
@@ -31,7 +31,7 @@ aside nav.left-nav ul li {
     padding: 0
 }
 .image-container {
-  background: #000 !important;
+  background: #f00 !important;
   text-align: center;
   padding: 1rem 0;
 }
@@ -48,12 +48,12 @@ aside nav.left-nav ul li.nolistHighlight a {
 }
 aside nav.left-nav ul li a {
     list-style-type: none;
-    color: #000;
+    color: #0ff;
     font-weight: 300;
     display: block;
-    padding: 0.5rem;
-    padding-left: 0.50rem;
-    font-size: 1.00rem;
+    padding: 0rem;
+    padding-left: 0.10rem;
+    font-size: 0.80rem;
 }
 aside nav.left-nav ul li a:hover {
     color: #000;
@@ -64,19 +64,19 @@ aside nav.left-nav ul li ul {
     color: #000;
     display: none;
     background-color: #fff;
-    padding-bottom: 0.25rem
+    padding-bottom: 0.1rem
 }
 aside nav.left-nav ul li ul li a {
-    color: #000;
+    color: #0f0;
     font-size: 0.8rem;
     font-weight: 100;
     padding-left: 50px;
     padding-bottom: initial
 }
 aside nav.left-nav ul li ul li a.active {
-    background-color: #000;
-    color: #000;
-    padding-bottom: 0.25rem
+    background-color: #ff0000;
+    color: #00f;
+    padding-bottom: 0.1rem
 }
 aside nav.left-nav ul li ul li a:hover {
     color: #000;

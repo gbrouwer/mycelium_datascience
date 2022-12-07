@@ -193,7 +193,7 @@ function populate() {
                     cell = document.createElement("td");
                     cell.style.fontSize = "10pt"
                     if (text !== "empty") {
-                        if (text.indexOf("assets/figures") > -1) {
+                        if (text.indexOf("assets/mycelium/figures") > -1) {
                             let elements = text.split(" ");
                             if (elements.length === 1) {
                                 let img = document.createElement("img");
@@ -265,7 +265,7 @@ function populate() {
                     cell = document.createElement("td");
                     cell.style.fontSize = "12pt"
                     if (text !== "empty") {
-                        if (text.indexOf("assets/figures") > -1) {
+                        if (text.indexOf("assets/mycelium/figures") > -1) {
                             let elements = text.split(" ");
                             if (elements.length === 1) {
                                 let img = document.createElement("img");
@@ -317,7 +317,7 @@ function populate() {
                     cell.style.fontSize = "12pt"
                     cell.style.backgroundColor = "#fff";
                     if (text !== "empty") {
-                        if (text.indexOf("assets/figures") > -1) {
+                        if (text.indexOf("assets/mycelium/figures") > -1) {
                             let elements = text.split(" ");
                             if (elements.length === 1) {
                                 let img = document.createElement("img");
@@ -473,7 +473,7 @@ function populate() {
                     cell = document.createElement("td");
                     //cell.style.fontSize = "10pt"
                     if (text !== "empty") {
-                        if (text.indexOf("assets/figures") > -1) {
+                        if (text.indexOf("assets/mycelium/figures") > -1) {
                             let elements = text.split(" ");
                             if (elements.length === 2) {
                                 let img = document.createElement("img");
@@ -546,7 +546,7 @@ function populate() {
                     cell = document.createElement("td");
                     //cell.style.fontSize = "10pt"
                     if (text !== "empty") {
-                        if (text.indexOf("assets/figures") > -1) {
+                        if (text.indexOf("assets/mycelium/figures") > -1) {
                             let elements = text.split(" ");
                             if (elements.length === 1) {
                                 let img = document.createElement("img");
@@ -615,7 +615,7 @@ function populate() {
                     cell = document.createElement("td");
                     cell.style.fontSize = "14pt"
                     if (text !== "empty") {
-                        if (text.indexOf("assets/figures") > -1) {
+                        if (text.indexOf("assets/mycelium/figures") > -1) {
                             let elements = text.split(" ");
                             if (elements.length === 1) {
                                 let img = document.createElement("img");
