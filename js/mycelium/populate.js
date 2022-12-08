@@ -70,41 +70,43 @@ function populate() {
                     let snippet = document.createElement("p");
                     let code = document.createTextNode(elements[0]);
 
+
                     comment_italic.appendChild(comment)
                     comment_italic.style.fontFamily = "JetBrains Mono"
-                    comment_italic.style.fontSize = "10pt";
+                    comment_italic.style.fontSize = "12pt";
+
                     snippet.style.fontFamily = "JetBrains Mono"
-                    snippet.style.fontSize = "10pt";
+                    snippet.style.fontSize = "12pt";
                     snippet.style.fontWeight = 200;
-                    snippet.appendChild(code);
-                    snippet.style.marginBottom = "10px";
+                    snippet.style.marginBottom = "14px";
                     snippet.style.width = "70%"
                     snippet.style.marginLeft = "15%"
                     snippet.style.marginRight = "15%"
                     snippet.style.marginBottom = "0";
+                    snippet.appendChild(code);
                     section_body.appendChild(snippet);
+
                 }
 
-                //Code Snippet
-                if (text_type_str === "#ce") {
-                    elements = text.split("-")
-
-                    let comment = document.createTextNode(' - ' + elements[1]);
-                    let code_strong = document.createElement('strong')
-                    let snippet = document.createElement("p");
-                    let code = document.createTextNode(elements[0]);
-                    code_strong.appendChild(code);
-                    code_strong.style.fontSize = "128pt";
-                    snippet.appendChild(code_strong);
-                    snippet.style.fontSize = "128t";
-                    snippet.style.marginTop = "20px";
-                    comment.style.fontSize = "128pt";
-                    snippet.appendChild(comment);
-                    snippet.style.width = "70%"
-                    snippet.style.marginLeft = "15%"
-                    snippet.style.marginRight = "15%"
-                    section_body.appendChild(snippet);
-                }
+                // //Code Snippet
+                // if (text_type_str === "#ce") {
+                //     elements = text.split("-")
+                //     let comment = document.createTextNode(' - ' + elements[1]);
+                //     let code_strong = document.createElement('strong')
+                //     let snippet = document.createElement("p");
+                //     let code = document.createTextNode(elements[0]);
+                //     code_strong.appendChild(code);
+                //     code_strong.style.fontSize = "128pt";
+                //     snippet.appendChild(code_strong);
+                //     snippet.style.fontSize = "128t";
+                //     snippet.style.marginTop = "20px";
+                //     comment.style.fontSize = "128pt";
+                //     snippet.appendChild(comment);
+                //     snippet.style.width = "70%"
+                //     snippet.style.marginLeft = "15%"
+                //     snippet.style.marginRight = "15%"
+                //     section_body.appendChild(snippet);
+                // }
 
                 //Image
                 if (text_type_str === "#im") {
@@ -197,6 +199,7 @@ function populate() {
                     if (text !== "empty") {
                         if (text.indexOf("assets/mycelium/figures") > -1) {
                             let elements = text.split(" ");
+                            console.log(elements)
                             if (elements.length === 1) {
                                 let img = document.createElement("img");
                                 img.src = text
@@ -212,6 +215,19 @@ function populate() {
                                 img.src = elements[0]
                                 img.style.width = "100pt";
                                 img.style.height = "100pt";
+                                img.style.cursor = "pointer";
+                                img.style.marginRight = "50pt";
+                                img.onclick = function() {
+                                    window.location.target= '_blank';
+                                    window.location.href = elements[1];
+                                };
+                                cell.appendChild(img);
+                            }
+                            if (elements.length === 3) {
+                                let img = document.createElement("img");
+                                img.src = elements[0]
+                                img.style.width = "100pt";
+                                img.style.height = elements[2] + "pt";
                                 img.style.cursor = "pointer";
                                 img.style.marginRight = "50pt";
                                 img.onclick = function() {
