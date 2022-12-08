@@ -94,8 +94,11 @@ function populate() {
                     let snippet = document.createElement("p");
                     let code = document.createTextNode(elements[0]);
                     code_strong.appendChild(code);
+                    code_strong.style.fontSize = "128pt";
                     snippet.appendChild(code_strong);
+                    snippet.style.fontSize = "128t";
                     snippet.style.marginTop = "20px";
+                    comment.style.fontSize = "128pt";
                     snippet.appendChild(comment);
                     snippet.style.width = "70%"
                     snippet.style.marginLeft = "15%"
@@ -158,9 +161,8 @@ function populate() {
                     let h = document.createElement("p");
                     let elements = text.split("-");
                     let caption = "<strong>" + elements[0] + "</strong>" + " - " + elements[1];
-                    // let t = document.createTextNode(caption);
-                    // h.appendChild(t);
                     h.style.width = "70%";
+                    h.style.fontSize = "1em ";
                     h.style.marginLeft = "15%"
                     h.style.marginRight = "15%"
                     h.style.textAlign = "center"
