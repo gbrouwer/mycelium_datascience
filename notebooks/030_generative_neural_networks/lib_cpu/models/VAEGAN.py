@@ -70,7 +70,8 @@ class VAEGAN(BaseModel):
 
     def sample(self, z_mean, z_log_var):
         std = torch.exp(z_log_var) / 2.
-        return torch.randn(*z_mean.size()).cuda() * std + z_mean
+        #return torch.randn(*z_mean.size()).cuda() * std + z_mean
+        return torch.randn(*z_mean.size()) * std + z_mean
 
     def disllike_loss(self, l_decoded, l_real):
         # loss = torch.sum()
@@ -88,7 +89,8 @@ class VAEGAN(BaseModel):
         kl_loss = self.kl_loss(z_mean_x, z_log_var_x) / elements_per_img
         decoded_img = self.G(z_x, attrs)
 
-        z = torch.randn(bs, self.z_dim).cuda()
+        #z = torch.randn(bs, self.z_dim).cuda()
+        z = torch.randn(bs, self.z_dim)
         fake_img = self.G(z, attrs)
 
         r_l, r_prob = self.D(img, attrs)

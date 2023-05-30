@@ -8,6 +8,11 @@ from .utils import Plotter
 
 
 def weights_init(m):
+    """
+    Custom weights initialization as suggested in DCGAN article
+    :param m: module
+    :return:
+    """
     if type(m) in [nn.ConvTranspose2d, nn.Conv2d, nn.Linear]:
         nn.init.normal_(m.weight.data, 0.0, 0.02)
 
@@ -15,9 +20,17 @@ def weights_init(m):
         nn.init.normal_(m.weight.data, 1.0, 0.02)
         nn.init.constant_(m.bias.data, 0)
 
-class BaseGenerator(nn.Module):
-    def __init__(self, z_dim, n_attrs, n_fil):
 
+class BaseGenerator(nn.Module):
+    """
+    Basic Deconvolution Generator
+    """
+    def __init__(self, z_dim, n_attrs, n_fil):
+        """
+        :param z_dim: Dimension of latent variable
+        :param n_attrs: Number of conditional attributes
+        :param n_fil: Number of filters in first Deconvolution
+        """
         super(BaseGenerator, self).__init__()
         self.z_dim = z_dim
         self.n_z = z_dim + n_attrs
@@ -50,11 +63,18 @@ class BaseGenerator(nn.Module):
 
 
 class BaseDiscriminator(nn.Module):
-
+    """
+    Basic Convolution Discriminator
+    """
     def __init__(self, n_attrs, n_fil=32,
                  norm_layer=nn.BatchNorm2d,
                  out_f=None):
-
+        """
+        :param n_attrs: Number of conditional attributes
+        :param n_fil: Number of filters in first Convolution
+        :param norm_layer: Which normalization layer to use
+        :param out_f: Output function
+        """
         super(BaseDiscriminator, self).__init__()
         self.n_attrs = n_attrs
         self.out_f = out_f
@@ -221,7 +241,7 @@ class BaseModel(nn.Module, Plotter):
                       'n_show': self.n_show,
                       'losses': self.losses}
         fn = f"{path_to_dir}/{self.__class__.__name__}_{self.epoch}.sd"
-        #torch.save(state_dict, fn)
+        torch.save(state_dict, fn)
         print("The model is saved: " + fn)
 
     def load(self, path_to_dir, start_epoch):

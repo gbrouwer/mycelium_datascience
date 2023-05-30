@@ -9,7 +9,7 @@ from torch.utils.data import Dataset
 
 from PIL import Image
 import matplotlib.pyplot as plt
-plt.switch_backend('agg')
+#plt.switch_backend('agg')
 
 
 class CelebA(Dataset):
@@ -18,8 +18,8 @@ class CelebA(Dataset):
     """
     def __init__(self, data_folder, img_transform=None, attr_transform=None):
         super(CelebA, self).__init__()
-        self.img_folder = os.path.join(data_folder, "images/")
-        self.attrs = pd.read_csv(os.path.join(data_folder, "meta/celeba_attributes.csv"), 
+        self.img_folder = os.path.join(data_folder, "images")
+        self.attrs = pd.read_csv(os.path.join(data_folder, "meta/celeba_orig.csv"), 
                                  index_col="image_id")
         self.n_attr = self.attrs.shape[1]
 
@@ -45,7 +45,9 @@ class CelebA(Dataset):
 
 
 class CroppedCelebA(CelebA):
-    
+    """
+    Celeba dataset with labels cropped and resized
+    """
     def __init__(self, data_folder):
         self.h, self.w = 218, 178
         self.size = 64, 64
